@@ -72,7 +72,7 @@
 										<?php
 										if ($this->session->flashdata('alert') == 'login_gagal') :
 										?>
-											<div class="alert alert-danger alert-dismissible animated fadeInDown round" style="" id="feedback" role="alert">
+											<div class="alert alert-danger alert-dismissible animated fadeInDown round"  id="feedback" role="alert">
 												<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
@@ -81,7 +81,7 @@
 										<?php
 										elseif ($this->session->flashdata('alert') == 'belum_login') :
 										?>
-											<div class="alert alert-warning alert-dismissible animated fadeInDown round" style="" id="feedback" role="alert">
+											<div class="alert alert-warning alert-dismissible animated fadeInDown round"  id="feedback" role="alert">
 												<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
@@ -117,7 +117,7 @@
 								</div>
 								<br>
 								<center>
-									<p>Repost by <a href="https://stokcoding.com/" title="StokCoding.com" target="_blank">StokCoding.com</a></p>
+									<p>created by <a href="https://github.com/pardedeputra27" title="github.com/pardedeputra27" target="_blank">Putra Pardede</a></p>
 								</center>
 							</div>
 						</div>
